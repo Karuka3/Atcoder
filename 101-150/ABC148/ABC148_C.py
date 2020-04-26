@@ -1,0 +1,4 @@
+import fractions
+x, y = (int(x) for x in input().split())
+
+print(int((x * y) / fractions.gcd(x, y)))
